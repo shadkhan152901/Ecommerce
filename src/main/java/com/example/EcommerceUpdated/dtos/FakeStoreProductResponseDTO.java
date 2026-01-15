@@ -4,12 +4,10 @@ import lombok.*;
 
 @Getter
 @Setter
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
-public class CategoryDTO {
-
-    private Long id;
-
-    private String name;
+public class FakeStoreProductResponseDTO {
+   private Long id;
+   private String title;
 }
